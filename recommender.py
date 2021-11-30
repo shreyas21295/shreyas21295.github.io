@@ -23,7 +23,7 @@ class GET_URLS:
             if ('.pdf' in url):
                 #print(url)
                 self.urls_fetched.append(url)
-        print("Urls fetched and filtered")
+        #print("Urls fetched and filtered")
         #print(self.urls_fetched)
         return self.urls_fetched
 
@@ -33,7 +33,7 @@ class GET_URLS:
             This method uses the 50 search results returned by fetch_urls and keeps only those which are from educational sites,
             returns nothing. Makes a call to fetch_urls()
         """
-        print("this is the first function to be called with query = ", self.search_query)
+        #print("this is the first function to be called with query = ", self.search_query)
         rel_urls = self.fetch_urls()
         self.save_output(rel_urls)
 
@@ -44,7 +44,7 @@ class GET_URLS:
             this is done to avoid limiting the calls to Google Api, this will be called only for the first time for a new query.
         """
         
-        print("saving Urls now")
+        #print("saving Urls now")
         text = self.search_query.split(" ")
         word = ''
         for words in text:
@@ -108,8 +108,8 @@ class GET_DIFFICULTY(GET_URLS):
                     self.evaluate_difficulty(url)
         #print("The average difficulties are as below")
         #print(self.avg_diff)
-        print("The results according to difficulty level = ",self.difficulty)
-        self.return_results()
+        #print("The results according to difficulty level = ",self.difficulty)
+        return self.return_results()
         #
                 
         
@@ -132,10 +132,12 @@ class GET_DIFFICULTY(GET_URLS):
         elif self.difficulty == 'medium' or self.difficulty == 'MEDIUM':
             mid = int(size/2)
             for i in range(mid-2, mid+3):
-                print(sorted_results[i])
+                #print(sorted_results[i])
+                return sorted_results[i]
         else:
             for i in range(0, 5):
-                print(sorted_results[size-i])
+                #print(sorted_results[size-i])
+                return sorted_results[size-i]
 
         
         
