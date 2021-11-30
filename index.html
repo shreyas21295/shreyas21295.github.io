@@ -26,52 +26,25 @@
 
   <div class="container-fluid">
     <div class="jumbotron text-center">
-      <h1>Recipe Generator</h1>
-      <p>Use this app to generate recipe ideas!</p>
+      <h1>Scribes Recommender System</h1>
+      <p>Use this app to generate lecture notes!</p>
         <div class="active-cyan-3 active-cyan-4 mb-4">
-            <input class="form-control" id='search_query' type="text"
-                   placeholder="Add a search term to generate specific recipes..." aria-label="Search">
+            <input class="form-control" id='topic' type="text"
+                   placeholder="Add a topic term to generate specific lecture notes..." aria-label="Search">
             <p></p>
-            <button class="btn btn-primary btn-lg" id="search-btn" type="button" >Search Recipes!</button>
+            <button class="btn btn-primary btn-lg" id="search-btn" type="button" >Search Topic!</button>
             <p></p>
             <p id="search_num"></p>
         </div>
+        <div class="active-cyan-3 active-cyan-4 mb-4">
+              <input class="form-control" id='level' type="text"
+                     placeholder="Select the difficulty level between easy, medium and hard" aria-label="Search">
+              <p></p>
+              <button class="btn btn-primary btn-lg" id="search-btn" type="button" >Difficulty Level</button>
+              <p></p>
+          </div>
     </div>
    </div>
-
-  <div class="container">
-
-      <div class="jumbotron text-center">
-
-          <h2 id="Title"></h2>
-
-        <div class="embed-responsive embed-responsive-16by9" id="image_responsive">
-
-          <img
-                  class="embed-responsive-item"
-                  id="image1"
-                  height=""
-                  src="">
-          </img>
-
-        </div>
-          <p>Click the button below to generate a new, random recipe!</p>
-          <button class="btn btn-info btn-lg" id="filter-btn" type="button" >Generate Random Recipe</button>
-
-        <h3>Ingredients:</h3>
-        <table id="ingredients_table" class="table table-striped" align="center">
-              <thead>
-                <tr>
-                </tr>
-              </thead>
-              <tbody id="Ingredients" align="center"> </tbody>
-            </table>
-
-        <h3>Instructions:</h3>
-          <h5 id="Instructions"></h5>
-
-      </div>
-      </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
   <script src="static/js/data.js"></script>
