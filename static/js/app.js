@@ -64,6 +64,38 @@ function buildTable(data) {
     }
 }
 
+function buildResult(data) {
+
+    // First, clear out any existing data
+    results_table.html("");
+    
+    var random_int = Object.keys(recipeData)[0];
+    //var specific_recipe = recipeData;
+
+    //specific_recipe = generateRandomInteger(data);
+
+    // Instantiate relevant variables for quick retrieval
+    //var recipe_keys = Object.keys(specific_recipe);
+    //var recipe_values = Object.values(specific_recipe);
+
+    // basic string replace to 'clean-up' and format array response for ingredients and instructions
+    //for (var i = 0; i < recipe_keys.length; i++) {
+
+        //if (i === 3) {
+    //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
+    var urls = recipeData.URLs
+        //}
+        //else if (i === 4) {
+    //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
+    //var instructions = strip.split("', '");
+    //var res = instructions.join(" <br> ");
+        //}
+    document.getElementById("Urls").innerHTML = urls;
+}
+
+
+
+
 // Function to handle the search criteria via button click
 function handleClickSearch() {
 
