@@ -2,9 +2,6 @@ data = [
     {
         "Topic": "Blistered Green Beans with Garlic",
         "Difficuly Level": "https://www.bonappetit.com/recipe/blistered-green-beans-with-garlic",
-        "URLs": "Inspired by salty-crunchy Sichuan dry-fried string beans (gan bian si ji dou), these green beans are shriveled and browned into delicious submission before receiving a flavor bomb of garlic, red pepper flakes, and chopped capers at the very end. Resist the urge to stir the beans around in the pan, and let them take on color like you would ground meat. Patience is essential here.",
-        "Ingredients": "['⅓ cup extra-virgin olive oil', '1 lb. green beans, trimmed, patted dry of any surface moisture or condensation', 'Kosher salt', '6 garlic cloves, sliced', '1 Tbsp. capers, drained, chopped', '1 tsp. crushed red pepper flakes']",
-        "Instructions": "['Heat oil in a large skillet over high until shimmering. Add green beans (the dryer they are, the less they will spatter when they hit the oil) and cook, covering skillet as needed if beans are spattering, until browned underneath, about 3 minutes. Turn beans with tongs and redistribute so they brown evenly (don’t toss them since hot oil can easily slosh out of skillet if you try to show off). Continue to cook, turning occasionally, until browned all over and tender, about 5 minutes longer. Season with salt. Add garlic, capers, and red pepper flakes. Cook, tossing occasionally, just until garlic turns golden, about 1 minute.', 'Transfer beans to a platter. Spoon caper-garlic mixture over and pour some oil over too; season with salt.']",
         "URLs": "http://www.mit.edu/~9.54/fall14/slides/Class13.pdf https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf https://mrcet.com/downloads/digital_notes/CSE/IV%20Year/MACHINE%20LEARNING(R17A0534).pdf https://pdfs.semanticscholar.org/1742/1f86f34998d3125972742bae20e863de0812.pdf https://projects.iq.harvard.edu/gov2001/files/discov.pdf"
     },
     {
