@@ -1,16 +1,16 @@
 from flask import Flask
 from flask_cors import CORS
-import pandas as pd
+#import pandas as pd
 import json
 
 from recipe_app.search_engine import return_relevant_recipes
 import recommender
 from recommender import results
 
-pd.set_option('display.max_rows', None)
-pd.set_option('display.max_columns', None)
-pd.set_option('display.width', None)
-pd.set_option('display.max_colwidth', None)
+#pd.set_option('display.max_rows', None)
+#pd.set_option('display.max_columns', None)
+#pd.set_option('display.width', None)
+#pd.set_option('display.max_colwidth', None)
 
 #################################################
 # Flask Setup
