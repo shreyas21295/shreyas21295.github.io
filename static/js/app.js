@@ -73,7 +73,7 @@ function handleClickSearch() {
         console.log(query);
         document.getElementById("search_query").placeholder=query;
 
-        var url = "https://reciperfect.herokuapp.com/api/search/";
+        var url = "https://scribes-recommender-system-api.herokuapp.com/api/search/";
         var updated_url = url + query;
 
         fetch(updated_url)
