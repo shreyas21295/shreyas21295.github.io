@@ -83,10 +83,11 @@ function handleClickSearch() {
           .then(function (data) {
 
                 recipeData = data;
-                buildTable(recipeData);
+                //buildTable(recipeData);
                 var num_query_results = recipeData.length;
 
                 document.getElementById("search_num").innerHTML = "Your query returned " + num_query_results + " results.";
+                document.getElementById("Instructions").innerHTML = data;
           })
 
           .catch(function (err) {
