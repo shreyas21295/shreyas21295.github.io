@@ -9,6 +9,10 @@ class GET_URLS:
         self.search_query = search_query + " lecture notes" #the Query user will provide concatenated along with lecture notes
         self.urls_fetched = []
         self.file_name = ''
+        self.form = cgi.FieldStorage()
+        # Get data from fields
+        self.topic = self.form.getvalue('topic')
+        self.level = self.form.getvalue('level')
 
     #def __getattribute__(self, toSearch):
      #   return f''
@@ -142,8 +146,8 @@ class GET_DIFFICULTY(GET_URLS):
         
 #obj = get_urls('Data Science')
 def main():
-    print(sys.argv[1], sys.argv[2])
-    obj1 = GET_DIFFICULTY("unsupervised learning", "medium")
+    #print(sys.argv[1], sys.argv[2])
+    obj1 = GET_DIFFICULTY(self.topic, self.level)
     obj1.tokenize_urls()
 
 if __name__ == "__main__":
