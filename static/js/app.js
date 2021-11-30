@@ -112,4 +112,4 @@ d3.select("#search-btn").on("click", handleClickSearch);
 d3.select("#search-btn").on("click", handleClickRandom);
 
 // Build the table when the page loads
-buildTable(recipeData);
+buildResult(recipeData);
