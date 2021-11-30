@@ -25,7 +25,7 @@ CORS(app)
 @app.route("/")
 def welcome():
     return (
-        f"Welcome to the RECIPERFECT search API!<br/>")
+        f"Welcome to the Scribes Recommender System search API!<br/>")
 
 @app.route("/api/search/<query>")
 def search_query(query=None):
