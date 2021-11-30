@@ -103,6 +103,14 @@ function buildResult(data) {
         //}
     document.getElementById("Urls").innerHTML = urls;
     document.getElementById("Title").innerHTML = specific_recipe.Topic;
+    
+    for (var i = 0; i < urls.length; i++) {
+
+      // Append a row to the table body
+      const row = results_table.append("tr");
+      let cell = row.append("tr");
+      cell.text(urls[i]);
+    }
 }
 
 
