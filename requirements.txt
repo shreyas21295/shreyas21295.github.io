@@ -17,7 +17,6 @@ Werkzeug
 xlrd
 bs4
 requests
-sys
 googlesearch
 nltk
 textstat
