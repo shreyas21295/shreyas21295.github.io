@@ -4,6 +4,7 @@ class GET_URLS:
         This class encodes methods and variables required to fetch the query results only from educational websites.
         We intend to call the methods of this class only once to limit the number of calls to the Google API.
     """
+    
     def __init__(self, search_query):
         super().__init__()
         self.search_query = search_query + " lecture notes" #the Query user will provide concatenated along with lecture notes
@@ -72,6 +73,7 @@ class GET_DIFFICULTY(GET_URLS):
         self.words = []
         self.sentences = []
         self.avg_diff = {}
+        self.df = pandas.DataFrame()
 
     def tokenize_urls(self):
         """
@@ -123,21 +125,27 @@ class GET_DIFFICULTY(GET_URLS):
         """
             This is the final function that is called to evaluate the results based on the difficulty level. Returns 5 urls.
         """
+        res = []
         size = len(self.avg_diff) - 1
         sorted_results = sorted(self.avg_diff)
         if self.difficulty == 'easy' or self.difficulty == 'EASY':
-            
             for i in range(0, 5):
-                print(sorted_results[i])
+                #print(sorted_results[i])
+                res.append(sorted_results[i])
         elif self.difficulty == 'medium' or self.difficulty == 'MEDIUM':
             mid = int(size/2)
             for i in range(mid-2, mid+3):
                 #print(sorted_results[i])
-                return sorted_results[i]
+                #return sorted_results[i]
+                res.append(sorted_results[i])
         else:
             for i in range(0, 5):
                 #print(sorted_results[size-i])
-                return sorted_results[size-i]
+                res.append(sorted_results[size-i])
+                #return sorted_results[size-i]
+        self.df['Diffculty Level'] = self.difficulty
+        self.df['URLs'] = res
+        return self.df
 
         
         
@@ -147,7 +155,9 @@ class GET_DIFFICULTY(GET_URLS):
 def results(topicandlevel):
     #print(sys.argv[1], sys.argv[2])
     obj1 = GET_DIFFICULTY(topicandlevel.rsplit(' ', 1)[0], topicandlevel.split()[-1])
-    return obj1.tokenize_urls()
+    df = obj1.tokenize_urls()
+    df['Topic'] = "topicandlevel.rsplit(' ', 1)[0]"
+    return df
 
 #if __name__ == "__main__":
 #    main()
