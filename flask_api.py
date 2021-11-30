@@ -4,6 +4,8 @@ import pandas as pd
 import json
 
 from recipe_app.search_engine import return_relevant_recipes
+import recommender
+from recommender import results
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
@@ -29,9 +31,10 @@ def welcome():
 def search_query(query=None):
 
     try:
-        results = return_relevant_recipes(query)
-        df_to_dict = results.to_dict('r')
-        data = json.dumps(df_to_dict, ensure_ascii=False, indent=4)
+        #results = return_relevant_recipes(query)
+        #df_to_dict = results.to_dict('r')
+        #data = json.dumps(df_to_dict, ensure_ascii=False, indent=4)
+        data = results()
 
         return (
             data
