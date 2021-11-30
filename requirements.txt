@@ -21,5 +21,3 @@ google-search
 nltk
 textstat
 PyPDF2
-cgi
-cgitb
