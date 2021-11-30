@@ -83,7 +83,7 @@ function buildResult(data) {
 
         //if (i === 3) {
     //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
-    var urls = recipeData.URLs
+    var urls = data.URLs
         //}
         //else if (i === 4) {
     //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
@@ -115,11 +115,11 @@ function handleClickSearch() {
           .then(function (data) {
 
                 recipeData = data;
-                //buildTable(recipeData);
+                buildResult(recipeData);
                 var num_query_results = recipeData.length;
 
                 document.getElementById("search_num").innerHTML = "Your query returned " + num_query_results + " results.";
-                document.getElementById("Instructions").innerHTML = data;
+                document.getElementById("Urls").innerHTML = data;
           })
 
           .catch(function (err) {
