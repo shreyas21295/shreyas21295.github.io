@@ -16,3 +16,12 @@ sklearn
 Werkzeug
 xlrd
 bs4
+requests
+urllib
+sys
+googlesearch
+nltk
+textstat
+PyPDF2
+cgi
+cgitb
