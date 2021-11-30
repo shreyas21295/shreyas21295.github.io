@@ -142,9 +142,9 @@ class GET_DIFFICULTY(GET_URLS):
         
 #obj = get_urls('Data Science')
 #def main():
-def results(topic, level):
+def results(topicandlevel):
     #print(sys.argv[1], sys.argv[2])
-    obj1 = GET_DIFFICULTY(topic,level)
+    obj1 = GET_DIFFICULTY(topicandlevel.rsplit(' ', 1)[0], topicandlevel.split()[-1])
     return obj1.tokenize_urls()
 
 #if __name__ == "__main__":
