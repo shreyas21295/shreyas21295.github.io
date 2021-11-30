@@ -2,12 +2,26 @@
 var recipeData = data;
 
 // Function to calculate random integer for recipe
-function generateRandomResult(data) {
+function fetchResult(data) {
     // Select a random recipe using MATH
     //var random_int = Object.keys(recipeData)[0];
-    var specific_recipe = recipeData[0];
+    
+    const query = d3.select('#search_query').property("value");
 
-    return specific_recipe
+    console.log(query);
+    document.getElementById("search_query").placeholder=query;
+    
+    var topic1 = data.query.slice(0,-1)
+    var difficulty1 = data.query.slice(-1)
+    //var index = Object.keys(json).indexOf(topic);
+    data.forEach(function(entry) {
+    if (entry.topic == topic1 && entry.Difficuly == difficulty1) {
+        var urls1 = entry.URLs;
+    }
+    });
+    
+    return topic1, difficulty1, urls1
+    //var specific_recipe = recipeData[0];
 }
 
 // Grab Ingredients in HTML
@@ -22,7 +36,7 @@ function buildResult(data) {
     var random_int = Object.keys(recipeData)[0];
     //var specific_recipe = recipeData;
 
-    specific_recipe = generateRandomResult(data);
+    var topic, var difficulty, var urls = fetchResult(data);
 
     // Instantiate relevant variables for quick retrieval
     //var recipe_keys = Object.keys(specific_recipe);
@@ -33,7 +47,6 @@ function buildResult(data) {
 
         //if (i === 3) {
     //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
-    var urls = specific_recipe.URLs
         //}
         //else if (i === 4) {
     //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
@@ -41,7 +54,7 @@ function buildResult(data) {
     //var res = instructions.join(" <br> ");
         //}
     document.getElementById("Urls").innerHTML = urls;
-    document.getElementById("Title").innerHTML = specific_recipe.Topic;
+    document.getElementById("Title").innerHTML = topic + difficulty;
     
     for (var i = 0; i < urls.length; i++) {
 
