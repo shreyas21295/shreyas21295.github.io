@@ -17,7 +17,7 @@ Werkzeug
 xlrd
 bs4
 requests
-google-search
+google
 nltk
 textstat
 PyPDF2
