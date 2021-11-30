@@ -3,7 +3,6 @@ from flask_cors import CORS
 #import pandas as pd
 import json
 
-from recipe_app.search_engine import return_relevant_recipes
 import recommender
 from recommender import results
 
