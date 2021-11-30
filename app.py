@@ -33,7 +33,7 @@ def search_query(query=None):
         #results = return_relevant_recipes(query)
         #df_to_dict = results.to_dict('r')
         #data = json.dumps(df_to_dict, ensure_ascii=False, indent=4)
-        data = results()
+        data = results(query)
 
         return (
             data
