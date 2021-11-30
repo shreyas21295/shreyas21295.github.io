@@ -21,3 +21,4 @@ google
 nltk
 textstat
 PyPDF2
+pandas
