@@ -11,15 +11,6 @@ function generateRandomInteger(data) {
     return specific_recipe
 }
 
-function generateRandomResult(data) {
-
-    // Select a random recipe using MATH
-    //var random_int = Object.keys(recipeData)[0];
-    var specific_recipe = recipeData[0];
-
-    return specific_recipe
-}
-
 // Grab Ingredients in HTML
 const ingredients_table = d3.select("#Ingredients");
 
@@ -73,6 +64,17 @@ function buildTable(data) {
     }
 }
 
+function generateRandomResult(data) {
+
+    // Select a random recipe using MATH
+    //var random_int = Object.keys(recipeData)[0];
+    var specific_recipe = recipeData[0];
+
+    return specific_recipe
+}
+
+const results_table = d3.select("#Results");
+
 function buildResult(data) {
 
     // First, clear out any existing data
@@ -92,7 +94,7 @@ function buildResult(data) {
 
         //if (i === 3) {
     //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
-    var urls = data.URLs
+    var urls = specific_recipe.URLs
         //}
         //else if (i === 4) {
     //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
