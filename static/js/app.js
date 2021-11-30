@@ -109,7 +109,7 @@ function handleClickRandom() {
 d3. select("#search-btn").on("click", handleClickSearch);
 
 // Attach an event to listen for the generate random recipe button
-d3.select("#filter-btn").on("click", handleClickRandom);
+d3.select("#search-btn").on("click", handleClickRandom);
 
 // Build the table when the page loads
 buildTable(recipeData);
