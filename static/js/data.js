@@ -32,17 +32,17 @@ data = [
     {
         "Topic": "machine learning",
         "Difficuly": "easy",
-        "URLs": ['http://math.ecnu.edu.cn/~lfzhou/seminar/[Joel_Grus]_Data_Science_from_Scratch_First_Princ.pdf', 'http://www.cse.chalmers.se/~richajo/dit862/L1/l1.pdf', 'https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf', 'https://courses.helsinki.fi/sites/default/files/course-material/4537296/IntroDS-01.pdf', 'https://engineering.lehigh.edu/sites/engineering.lehigh.edu/files/ISE444-syllabus%20%281%29.pdf']
-    },    
+        "URLs": ['https://mrcet.com/downloads/digital_notes/CSE/IV%20Year/MACHINE%20LEARNING(R17A0534).pdf', 'https://sebastianraschka.com/pdf/lecture-notes/stat479fs18/01_ml-overview_notes.pdf', 'https://www.dgp.toronto.edu/~hertzman/411notes.pdf', 'https://www.robots.ox.ac.uk/~az/lectures/ml/lect1.pdf', 'https://faculty.ucmerced.edu/mcarreira-perpinan/teaching/CSE176/lecturenotes.pdf']
+    },   
     {
         "Topic": "machine learning",
         "Difficuly": "medium",
-        "URLs": ['https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf', 'https://courses.helsinki.fi/sites/default/files/course-material/4537296/IntroDS-01.pdf', 'https://engineering.lehigh.edu/sites/engineering.lehigh.edu/files/ISE444-syllabus%20%281%29.pdf', 'https://homepage.cs.uri.edu/faculty/hamel/courses/2018/spring2018/csc310/lecture-notes/01-What-is-Data-Science.pdf', 'https://www.iare.ac.in/sites/default/files/lecture_notes/APA%20Lecture%20notes.pdf']
+        "URLs": ['https://www.dgp.toronto.edu/~hertzman/411notes.pdf', 'https://www.robots.ox.ac.uk/~az/lectures/ml/lect1.pdf', 'https://faculty.ucmerced.edu/mcarreira-perpinan/teaching/CSE176/lecturenotes.pdf', 'https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf', 'http://www.stat.sinica.edu.tw/syhuang/kern_stat_toolbox/lecture-notes.pdf']
     },
     {
         "Topic": "machine learning",
         "Difficuly": "hard",
-        "URLs": ['https://www.randomsystems-cdt.ac.uk/sites/default/files/randomsystems/documents/media/foundationsofdatascience.pdf', 'https://www.mie.utoronto.ca/wp-content/uploads/2019/08/MIE1624H-Course-Outline-Winter-2020.pdf', 'https://www.leanderband.org/wp-content/uploads/formidable/17/advanced-statistical-inference-lecture-notes.pdf', 'https://www.iare.ac.in/sites/default/files/lecture_notes/APA%20Lecture%20notes.pdf', 'https://homepage.cs.uri.edu/faculty/hamel/courses/2018/spring2018/csc310/lecture-notes/01-What-is-Data-Science.pdf']
+        "URLs": ['http://www.cs.ccsu.edu/~markov/ccsu_courses/lnml.pdf', 'https://news.vidyaacademy.ac.in/wp-content/uploads/2018/10/NotesOnMachineLearningForBTech-1.pdf', 'https://www.ai.rug.nl/minds/uploads/LN_ML_RUG.pdf', 'http://www.stat.sinica.edu.tw/syhuang/kern_stat_toolbox/lecture-notes.pdf', 'https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf]
     },
     {
         "Topic": "cross validation",
