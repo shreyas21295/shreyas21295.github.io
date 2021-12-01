@@ -49,7 +49,7 @@ function buildResult(query,level) {
         // Append a row to the table body
         const row = results_table.append("tr");
         let cell = row.append("tr");//<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
-        cell.text(<iframe src=urls[i] title=urls[i]></iframe>);
+        cell.text(urls[i]);
     }
     return urls
 }
