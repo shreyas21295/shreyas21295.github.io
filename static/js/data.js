@@ -89,4 +89,19 @@ data = [
         "Difficuly": "hard",
         "URLs": ['https://www.stat.berkeley.edu/~spector/python.pdf', 'https://www.iare.ac.in/sites/default/files/IARE_OOPS_Lecture%20Notes.pdf', 'https://www.ast.cam.ac.uk/~rcooke/python/UCS_python-intro_notes.pdf', 'https://mrcet.com/downloads/digital_notes/CSE/III%20Year/PYTHON%20PROGRAMMING%20NOTES.pdf', 'https://geosci.uchicago.edu/~rtp1/PythonSupport/PythonNotes.pdf']
     },
-];
+    {
+        "Topic": "application programming interface",
+        "Difficuly": "easy",
+        "URLs": ['https://idc9.github.io/stor390/slides/API.pdf\n', 'https://jolt.law.harvard.edu/assets/articlePDFs/v32/32HarvJLTech235.pdf\n', 'https://publications.jrc.ec.europa.eu/repository/bitstream/JRC118082/jrc118082_api-landscape-standards.pdf', 'https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/02/CS101-1.3.5.3-Java-Application-Programming-Interface-API-FINAL.pdf', 'https://www.basicknowledge101.com/pdf/km/Application%20programming%20interface.pdf']
+    },
+    {
+        "Topic": "application programming interface",
+        "Difficuly": "medium",
+        "URLs": ['https://jolt.law.harvard.edu/assets/articlePDFs/v32/32HarvJLTech235.pdf', 'https://publications.jrc.ec.europa.eu/repository/bitstream/JRC118082/jrc118082_api-landscape-standards.pdf', 'https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/02/CS101-1.3.5.3-Java-Application-Programming-Interface-API-FINAL.pdf', 'https://www.basicknowledge101.com/pdf/km/Application%20programming%20interface.pdf', 'https://www.godigital.co.kr/wp-content/uploads/formidable/2/internet-application-programming-lecture-notes.pdf']
+    },
+    {
+        "Topic": "application programming interface",
+        "Difficuly": "hard",
+        "URLs": ['https://www.w3.org/2004/02/mmi-workshop/vanderdonckt-louvain.pdf', 'https://www.iare.ac.in/sites/default/files/lecture_notes/MAD%20Lecture%20Notes.pdf', 'https://www.godigital.co.kr/wp-content/uploads/formidable/2/internet-application-programming-lecture-notes.pdf', 'https://www.basicknowledge101.com/pdf/km/Application%20programming%20interface.pdf', 'https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/02/CS101-1.3.5.3-Java-Application-Programming-Interface-API-FINAL.pdf']
+    },
+    ];
