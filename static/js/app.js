@@ -11,7 +11,7 @@ function fetchResult(query, level) {
     var topic1 = "";
 
     if (level) {
-        #console.log("level found")
+        //console.log("level found")
         resData.forEach(function (entry) {
             if (entry["Topic"] == query && entry["Difficuly"] == level) {
                 urls1 = entry["URLs"];
@@ -19,7 +19,7 @@ function fetchResult(query, level) {
             }
         });
     } else {
-        #console.log("level not found")
+        //console.log("level not found")
         var topic1 = query;
         resData.forEach(function (entry) {
             if (entry["Topic"] == topic1 && entry["Difficuly"] == difficulty1) {
