@@ -1,115 +1,81 @@
 // Grab data from the static JSON file
-var recipeData = data;
-
+var resData = data;
+var difficulty1 = "easy"
 // Function to calculate random integer for recipe
-function fetchResult(data) {
-    // Select a random recipe using MATH
-    //var random_int = Object.keys(recipeData)[0];
-    
-    const query = d3.select('#search_query').property("value");
 
-    console.log(query);
-    document.getElementById("search_query").placeholder=query;
-    
-    var topic1 = data.query.slice(0,-1)
-    var difficulty1 = data.query.slice(-1)
-    //var index = Object.keys(json).indexOf(topic);
-    data.forEach(function(entry) {
-    if (entry.topic == topic1 && entry.Difficuly == difficulty1) {
-        var urls1 = entry.URLs;
+console.log(resData)
+
+function fetchResult(query, level) {
+    console.log("in fetch result " + query);
+    var urls1 = [];
+    var topic1 = "";
+
+    if (level) {
+        console.log("level found")
+        var topic1 = resData.query;
+        resData.forEach(function (entry) {
+            if (entry.topic == topic1 && entry.Difficuly == level) {
+                urls1 = entry.URLs;
+            }
+        });
+    } else {
+        console.log("level not found")
+        var topic1 = resData.query;
+        resData.forEach(function (entry) {
+            if (entry.topic == topic1 && entry.Difficuly == difficulty1) {
+                urls1 = entry.URLs;
+            }
+        }); 
+
     }
-    });
-    
-    return topic1, difficulty1, urls1
-    //var specific_recipe = recipeData[0];
+    console.log("in fetch result after fetching " + topic1, level)
+    return urls1
 }
 
 // Grab Ingredients in HTML
 const results_table = d3.select("#Results");
 
 // Function to build the data using a parameter data
-function buildResult(data) {
+
+function buildResult(query,level) {
 
     // First, clear out any existing data
+
     results_table.html("");
-    
-    var random_int = Object.keys(recipeData)[0];
-    //var specific_recipe = recipeData;
 
-    var topic, var difficulty, var urls = fetchResult(data);
+    const urls = fetchResult(query,level);
 
-    // Instantiate relevant variables for quick retrieval
-    //var recipe_keys = Object.keys(specific_recipe);
-    //var recipe_values = Object.values(specific_recipe);
-
-    // basic string replace to 'clean-up' and format array response for ingredients and instructions
-    //for (var i = 0; i < recipe_keys.length; i++) {
-
-        //if (i === 3) {
-    //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
-        //}
-        //else if (i === 4) {
-    //var strip = recipe_values[i].replace(/[\])}[{(]/g, '');
-    //var instructions = strip.split("', '");
-    //var res = instructions.join(" <br> ");
-        //}
-    document.getElementById("Urls").innerHTML = urls;
-    document.getElementById("Title").innerHTML = topic + difficulty;
-    
     for (var i = 0; i < urls.length; i++) {
 
-      // Append a row to the table body
-      const row = results_table.append("tr");
-      let cell = row.append("tr");
-      cell.text(urls[i]);
+        // Append a row to the table body
+        const row = results_table.append("tr");
+        let cell = row.append("tr");
+        cell.text(urls[i]);
     }
+    return urls
 }
 
+function handleClickSearch_Q(level) {
 
+    const query1 = d3.select('#search_query').property("value");
+    console.log("after getting"+query1)
 
+    if (query1) {
+        const query = String(query1);
+        console.log("in handle click search"+query);
+        document.getElementById("search_query").placeholder = query;
 
-// Function to handle the search criteria via button click
-function handleClickSearch() {
+        //buildResult(query,level);
+        const urls = buildResult(query, level);
+        var num_query_results = urls.length;
 
-    const query = d3.select('#search_query').property("value");
-
-    if (query) {
-        console.log(query);
-        document.getElementById("search_query").placeholder=query;
-
-        var url = "https://scribes-recommender-system-api.herokuapp.com/api/search/";
-        var updated_url = url + query;
-
-        fetch(updated_url)
-          .then(function (response) {
-            return response.json();
-          })
-          .then(function (data) {
-
-                recipeData = data;
-                buildResult(recipeData);
-                var num_query_results = recipeData.length;
-
-                document.getElementById("search_num").innerHTML = "Your query returned " + num_query_results + " results.";
-                document.getElementById("Urls").innerHTML = data;
-          })
-
-          .catch(function (err) {
-            console.log(err);
-          });
-    }
+        document.getElementById("search_num").innerHTML = "Top " + num_query_results +" results for your query are: ";
+        }
 }
 
-// Function to generate new recipes for random generator
-function handleClickRandom() {
-  window.location.reload();
+function handleClickSearch_L() {
+    const level = d3.select('#search_level').property("value");
+    handleClickSearch_Q(level);
 }
 
-// Attach an event to listen for the search recipes button
-d3.select("#search-btn").on("click", handleClickSearch);
-
-// Attach an event to listen for the generate random recipe button
-d3.select("#search-btn").on("click", handleClickRandom);
-
-// Build the table when the page loads
-buildResult(recipeData);
+d3.select("#search-btn").on("click", handleClickSearch_L);
