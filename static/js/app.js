@@ -65,9 +65,9 @@ function handleClickSearch_Q(level) {
         console.log("in handle click search"+query);
         document.getElementById("search_query").placeholder = query;
 
-        //buildResult(query,level);
-        var urls = buildResult(query, level);
-        var num_query_results = urls.length;
+        buildResult(query,level);
+        //const urls = buildResult(query, level);
+        var num_query_results = 5;
 
         document.getElementById("search_num").innerHTML = "Top " + num_query_results +" results for your query are: ";
         }
