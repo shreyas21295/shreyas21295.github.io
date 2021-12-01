@@ -3,32 +3,31 @@ var resData = data;
 var difficulty1 = "easy"
 // Function to calculate random integer for recipe
 
-console.log(resData)
+//console.log(resData[0]["Topic"])
 
 function fetchResult(query, level) {
-    console.log("in fetch result " + query);
+    //console.log("in fetch result " + query);
     var urls1 = [];
     var topic1 = "";
 
     if (level) {
         console.log("level found")
-        var topic1 = resData.query;
         resData.forEach(function (entry) {
-            if (entry.topic == topic1 && entry.Difficuly == level) {
-                urls1 = entry.URLs;
+            if (entry["Topic"] == query && entry["Difficuly"] == level) {
+                urls1 = entry["URLs"];
+                //console.log("in console topic " +entry["Topic"]);
             }
         });
     } else {
         console.log("level not found")
-        var topic1 = resData.query;
+        var topic1 = query;
         resData.forEach(function (entry) {
-            if (entry.topic == topic1 && entry.Difficuly == difficulty1) {
-                urls1 = entry.URLs;
+            if (entry["Topic"] == topic1 && entry["Difficuly"] == difficulty1) {
+                urls1 = entry["URLs"];
             }
         }); 
-
     }
-    console.log("in fetch result after fetching " + topic1, level)
+    //console.log("in fetch result after fetching " + topic1, level)
     return urls1
 }
 
@@ -58,23 +57,25 @@ function buildResult(query,level) {
 function handleClickSearch_Q(level) {
 
     const query1 = d3.select('#search_query').property("value");
-    console.log("after getting"+query1)
+    //console.log("after getting"+query1)
 
     if (query1) {
-        const query = String(query1);
-        console.log("in handle click search"+query);
+        const query = ""+query1;
+        //console.log("in handle click search"+query);
         document.getElementById("search_query").placeholder = query;
 
-        buildResult(query,level);
-        //const urls = buildResult(query, level);
-        var num_query_results = 5;
+        //buildResult(query,level);
+        const urls = buildResult(query, level);
+        var num_query_results = urls.length;
 
         document.getElementById("search_num").innerHTML = "Top " + num_query_results +" results for your query are: ";
         }
 }
 
 function handleClickSearch_L() {
-    const level = d3.select('#search_level').property("value");
+    const level1 = d3.select('#search_level').property("value");
+    const level = "" + level1;
+    //console.log("after getting" + level)
     handleClickSearch_Q(level);
 }
 
