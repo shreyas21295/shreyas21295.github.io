@@ -115,7 +115,7 @@ data = [
         "URLs": ['https://assets.openstax.org/oscms-prodcms/media/documents/OpenStax_Algebra__Trigonometry_Recorded_Lectures_and_Notes_for_Precalculus.pdf', 'https://jmahaffy.sdsu.edu/courses/f11/math122/beamer_lectures/trig.pdf', 'https://math.uchicago.edu/~cstaats/Charles_Staats_III/Notes_and_papers_files/Winter2012.pdf', 'https://orion.math.iastate.edu/butler/PDF/trig_notes.pdf', 'https://users.math.msu.edu/users/systeven/MTH114synotes.pdf']
     },
     {
-        "Topic": "trigonometry,
+        "Topic": "trigonometry",
         "Difficuly": "hard",
         "URLs": ['https://www.pnw.edu/wp-content/uploads/2020/03/Lecture-Notes-9-1-2.pdf', 'https://www.govst.edu/uploadedFiles/Academics/Colleges_and_Programs/CAS/Trigonometry_Short_Course_Tutorial_Lauren_Johnson.pdf', 'https://users.math.msu.edu/users/systeven/MTH114synotes.pdf', 'https://orion.math.iastate.edu/butler/PDF/trig_notes.pdf', 'https://math.uchicago.edu/~cstaats/Charles_Staats_III/Notes_and_papers_files/Winter2012.pdf']
     },
