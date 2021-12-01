@@ -44,4 +44,19 @@ data = [
         "Difficuly": "hard",
         "URLs": ['https://www.randomsystems-cdt.ac.uk/sites/default/files/randomsystems/documents/media/foundationsofdatascience.pdf', 'https://www.mie.utoronto.ca/wp-content/uploads/2019/08/MIE1624H-Course-Outline-Winter-2020.pdf', 'https://www.leanderband.org/wp-content/uploads/formidable/17/advanced-statistical-inference-lecture-notes.pdf', 'https://www.iare.ac.in/sites/default/files/lecture_notes/APA%20Lecture%20notes.pdf', 'https://homepage.cs.uri.edu/faculty/hamel/courses/2018/spring2018/csc310/lecture-notes/01-What-is-Data-Science.pdf']
     },
+    {
+        "Topic": "cross validation",
+        "Difficuly": "easy",
+        "URLs": ['http://courses.ieor.berkeley.edu/ieor165/lecture_notes/ieor165_lec9.pdf', 'http://www.stat.cmu.edu/~ryantibs/datamining/lectures/18-val1.pdf', 'http://www2.stat.duke.edu/~rcs46/lectures_2017/05-resample/05-cv.pdf', 'https://ocw.mit.edu/courses/health-sciences-and-technology/hst-951j-medical-decision-support-fall-2005/lecture-notes/hst951_6.pdf', 'https://www.cmpe.boun.edu.tr/~ethem/i2ml2e/2e_v1-0/i2ml2e-chap19-v1-0.pdf']
+    },
+    {
+        "Topic": "cross validation",
+        "Difficuly": "medium",
+        "URLs": ['http://www.stat.cmu.edu/~ryantibs/datamining/lectures/18-val1.pdf', 'http://www2.stat.duke.edu/~rcs46/lectures_2017/05-resample/05-cv.pdf', 'https://ocw.mit.edu/courses/health-sciences-and-technology/hst-951j-medical-decision-support-fall-2005/lecture-notes/hst951_6.pdf', 'https://www.cmpe.boun.edu.tr/~ethem/i2ml2e/2e_v1-0/i2ml2e-chap19-v1-0.pdf', 'https://www.cs.tau.ac.il/~nin/Courses/NC05/pr_l13.pdf']
+    },
+    {
+        "Topic": "cross validation",
+        "Difficuly": "hard",
+        "URLs": ['https://www3.cs.stonybrook.edu/~cse352/L7classification2.pdf', 'https://www.cs.tau.ac.il/~nin/Courses/NC05/pr_l13.pdf', 'https://www.cmpe.boun.edu.tr/~ethem/i2ml2e/2e_v1-0/i2ml2e-chap19-v1-0.pdf', 'https://ocw.mit.edu/courses/health-sciences-and-technology/hst-951j-medical-decision-support-fall-2005/lecture-notes/hst951_6.pdf', 'http://www2.stat.duke.edu/~rcs46/lectures_2017/05-resample/05-cv.pdf']
+    },
 ];
