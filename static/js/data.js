@@ -59,4 +59,19 @@ data = [
         "Difficuly": "hard",
         "URLs": ['https://www3.cs.stonybrook.edu/~cse352/L7classification2.pdf', 'https://www.cs.tau.ac.il/~nin/Courses/NC05/pr_l13.pdf', 'https://www.cmpe.boun.edu.tr/~ethem/i2ml2e/2e_v1-0/i2ml2e-chap19-v1-0.pdf', 'https://ocw.mit.edu/courses/health-sciences-and-technology/hst-951j-medical-decision-support-fall-2005/lecture-notes/hst951_6.pdf', 'http://www2.stat.duke.edu/~rcs46/lectures_2017/05-resample/05-cv.pdf']
     },
+    {
+        "Topic": "tectonic plates",
+        "Difficuly": "easy",
+        "URLs": ['http://geofaculty.uwyo.edu/dueker/GeophysicsClass/Plate_Tectonics%20WATT%20SLIDES.pdf', 'http://ivis.eps.pitt.edu/courses/geol0820/lectures/5.pdf', 'http://www.geo.cornell.edu/eas/education/course/descr/EAS220/2009_Fall_Jason_Chao/lectures/2200_09Lecture07.pdf', 'http://www.geo.hunter.cuny.edu/~fbuon/GEOL_231/Lectures/Tectonic%20Landforms.pdf', 'https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-001-introduction-to-geology-fall-2013/lecture-notes-and-slides/MIT12_001F13_Lec13-15Notes.pdf']
+    },
+    {
+        "Topic": "tectonic plates",
+        "Difficuly": "medium",
+        "URLs": ['http://www.geo.cornell.edu/eas/education/course/descr/EAS220/2009_Fall_Jason_Chao/lectures/2200_09Lecture07.pdf', 'http://www.geo.hunter.cuny.edu/~fbuon/GEOL_231/Lectures/Tectonic%20Landforms.pdf', 'https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-001-introduction-to-geology-fall-2013/lecture-notes-and-slides/MIT12_001F13_Lec13-15Notes.pdf', 'https://web.gccaz.edu/academicdepartments/physicalscience/engweb/engftp/GLG101/Lecture1_intro_pltec.pdf', 'https://www.kean.edu/~csmart/Observing/05.%20Plate%20tectonics.pdf']
+    },
+    {
+        "Topic": "tectonic plates",
+        "Difficuly": "hard",
+        "URLs": ['https://www.southalabama.edu/geology/haywick/GY111/111-2.pdf', 'https://www.ldisd.net/cms/lib5/TX01817232/Centricity/Domain/218/Plate%20tectonics%20notes_2016.pdf', 'https://www.lakeheadu.ca/sites/default/files/uploads/54/Geology%203015%20Week%204b%20Lecture.pdf', 'https://www.kean.edu/~csmart/Observing/05.%20Plate%20tectonics.pdf', 'https://web.gccaz.edu/academicdepartments/physicalscience/engweb/engftp/GLG101/Lecture1_intro_pltec.pdf']
+    },
 ];
