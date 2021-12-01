@@ -104,4 +104,19 @@ data = [
         "Difficuly": "hard",
         "URLs": ['https://www.w3.org/2004/02/mmi-workshop/vanderdonckt-louvain.pdf', 'https://www.iare.ac.in/sites/default/files/lecture_notes/MAD%20Lecture%20Notes.pdf', 'https://www.godigital.co.kr/wp-content/uploads/formidable/2/internet-application-programming-lecture-notes.pdf', 'https://www.basicknowledge101.com/pdf/km/Application%20programming%20interface.pdf', 'https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2013/02/CS101-1.3.5.3-Java-Application-Programming-Interface-API-FINAL.pdf']
     },
+    {
+        "Topic": "trigonometry",
+        "Difficuly": "easy",
+        "URLs": ['http://math.oit.edu/~paulr/Texts/notes_M112.pdf', 'http://www.mcclendonmath.com/m120/m120coursenotes.pdf', 'https://assets.openstax.org/oscms-prodcms/media/documents/OpenStax_Algebra__Trigonometry_Recorded_Lectures_and_Notes_for_Precalculus.pdf', 'https://jmahaffy.sdsu.edu/courses/f11/math122/beamer_lectures/trig.pdf', 'https://math.uchicago.edu/~cstaats/Charles_Staats_III/Notes_and_papers_files/Winter2012.pdf']
+    },
+    {
+        "Topic": "trigonometry",
+        "Difficuly": "medium",
+        "URLs": ['https://assets.openstax.org/oscms-prodcms/media/documents/OpenStax_Algebra__Trigonometry_Recorded_Lectures_and_Notes_for_Precalculus.pdf', 'https://jmahaffy.sdsu.edu/courses/f11/math122/beamer_lectures/trig.pdf', 'https://math.uchicago.edu/~cstaats/Charles_Staats_III/Notes_and_papers_files/Winter2012.pdf', 'https://orion.math.iastate.edu/butler/PDF/trig_notes.pdf', 'https://users.math.msu.edu/users/systeven/MTH114synotes.pdf']
+    },
+    {
+        "Topic": "trigonometry,
+        "Difficuly": "hard",
+        "URLs": ['https://www.pnw.edu/wp-content/uploads/2020/03/Lecture-Notes-9-1-2.pdf', 'https://www.govst.edu/uploadedFiles/Academics/Colleges_and_Programs/CAS/Trigonometry_Short_Course_Tutorial_Lauren_Johnson.pdf', 'https://users.math.msu.edu/users/systeven/MTH114synotes.pdf', 'https://orion.math.iastate.edu/butler/PDF/trig_notes.pdf', 'https://math.uchicago.edu/~cstaats/Charles_Staats_III/Notes_and_papers_files/Winter2012.pdf']
+    },
     ];
