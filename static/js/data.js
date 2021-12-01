@@ -42,7 +42,7 @@ data = [
     {
         "Topic": "machine learning",
         "Difficuly": "hard",
-        "URLs": ['http://www.cs.ccsu.edu/~markov/ccsu_courses/lnml.pdf', 'https://news.vidyaacademy.ac.in/wp-content/uploads/2018/10/NotesOnMachineLearningForBTech-1.pdf', 'https://www.ai.rug.nl/minds/uploads/LN_ML_RUG.pdf', 'http://www.stat.sinica.edu.tw/syhuang/kern_stat_toolbox/lecture-notes.pdf', 'https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf]
+        "URLs": ['http://www.cs.ccsu.edu/~markov/ccsu_courses/lnml.pdf', 'https://news.vidyaacademy.ac.in/wp-content/uploads/2018/10/NotesOnMachineLearningForBTech-1.pdf', 'https://www.ai.rug.nl/minds/uploads/LN_ML_RUG.pdf', 'http://www.stat.sinica.edu.tw/syhuang/kern_stat_toolbox/lecture-notes.pdf', 'https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf']
     },
     {
         "Topic": "cross validation",
