@@ -66,7 +66,7 @@ function handleClickSearch_Q(level) {
         document.getElementById("search_query").placeholder = query;
 
         //buildResult(query,level);
-        const urls = buildResult(query, level);
+        var urls = buildResult(query, level);
         var num_query_results = urls.length;
 
         document.getElementById("search_num").innerHTML = "Top " + num_query_results +" results for your query are: ";
