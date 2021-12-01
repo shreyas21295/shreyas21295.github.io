@@ -2,7 +2,7 @@ data = [
     {
         "Topic": "unsupervised learning",
         "Difficuly": "medium",
-        "URLs": "http://www.mit.edu/~9.54/fall14/slides/Class13.pdf https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf https://mrcet.com/downloads/digital_notes/CSE/IV%20Year/MACHINE%20LEARNING(R17A0534).pdf https://pdfs.semanticscholar.org/1742/1f86f34998d3125972742bae20e863de0812.pdf https://projects.iq.harvard.edu/gov2001/files/discov.pdf"
+        "URLs": ['http://www.mit.edu/~9.54/fall14/slides/Class13.pdf','https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf', 'https://mrcet.com/downloads/digital_notes/CSE/IV%20Year/MACHINE%20LEARNING(R17A0534).pdf', 'https://pdfs.semanticscholar.org/1742/1f86f34998d3125972742bae20e863de0812.pdf', 'https://projects.iq.harvard.edu/gov2001/files/discov.pdf']
     },
     {
         "Recipe_Name": "Salt-and-Vinegar Rösti",
