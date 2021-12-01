@@ -6,17 +6,17 @@ data = [
     },
     {
         "Topic": "data science",
-        "Difficulty": "easy",
+        "Difficuly": "easy",
         "URLs": ['http://math.ecnu.edu.cn/~lfzhou/seminar/[Joel_Grus]_Data_Science_from_Scratch_First_Princ.pdf', 'http://www.cse.chalmers.se/~richajo/dit862/L1/l1.pdf', 'https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf', 'https://courses.helsinki.fi/sites/default/files/course-material/4537296/IntroDS-01.pdf', 'https://engineering.lehigh.edu/sites/engineering.lehigh.edu/files/ISE444-syllabus%20%281%29.pdf']
     },
     {
         "Topic": "data science",
-        "Difficulty": "medium",
+        "Difficuly": "medium",
         "URLs": ['https://cims.nyu.edu/~cfgranda/pages/stuff/probability_stats_for_DS.pdf', 'https://courses.helsinki.fi/sites/default/files/course-material/4537296/IntroDS-01.pdf', 'https://engineering.lehigh.edu/sites/engineering.lehigh.edu/files/ISE444-syllabus%20%281%29.pdf', 'https://homepage.cs.uri.edu/faculty/hamel/courses/2018/spring2018/csc310/lecture-notes/01-What-is-Data-Science.pdf', 'https://www.iare.ac.in/sites/default/files/lecture_notes/APA%20Lecture%20notes.pdf']
     },
     {
         "Topic": "data science",
-        "Difficulty": "hard",
+        "Difficuly": "hard",
         "URLs": ['https://www.randomsystems-cdt.ac.uk/sites/default/files/randomsystems/documents/media/foundationsofdatascience.pdf', 'https://www.mie.utoronto.ca/wp-content/uploads/2019/08/MIE1624H-Course-Outline-Winter-2020.pdf', 'https://www.leanderband.org/wp-content/uploads/formidable/17/advanced-statistical-inference-lecture-notes.pdf', 'https://www.iare.actes/default/files/lecture_notes/.in/siAPA%20Lecture%20notes.pdf', 'https://homepage.cs.uri.edu/faculty/hamel/courses/2018/spring2018/csc310/lecture-notes/01-What-is-Data-Science.pdf']
     },
 ];
