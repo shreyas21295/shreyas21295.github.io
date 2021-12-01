@@ -48,8 +48,15 @@ function buildResult(query,level) {
 
         // Append a row to the table body
         const row = results_table.append("tr");
-        let cell = row.append("tr");//<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
-        cell.text(urls[i]);
+        //let cell = row.append("tr");
+        let cell1 = row.append("td");
+        let cell2 = cell1.append("a");
+        let cell3 = cell2.append("href");
+        var aa = document.getElementsByTagName("a");
+        aa[i].href = urls[i]
+        //console.log("cell is " + aaa);
+        //class='clickable-row' data-href='url://link-for-first-row/'>
+        cell2.text(urls[i]);
     }
     return urls
 }
