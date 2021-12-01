@@ -48,8 +48,8 @@ function buildResult(query,level) {
 
         // Append a row to the table body
         const row = results_table.append("tr");
-        let cell = row.append("tr");
-        cell.text(urls[i]);
+        let cell = row.append("tr");//<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+        cell.text(<iframe src=urls[i] title=urls[i]></iframe>);
     }
     return urls
 }
