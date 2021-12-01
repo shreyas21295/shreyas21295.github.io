@@ -74,4 +74,19 @@ data = [
         "Difficuly": "hard",
         "URLs": ['https://www.southalabama.edu/geology/haywick/GY111/111-2.pdf', 'https://www.ldisd.net/cms/lib5/TX01817232/Centricity/Domain/218/Plate%20tectonics%20notes_2016.pdf', 'https://www.lakeheadu.ca/sites/default/files/uploads/54/Geology%203015%20Week%204b%20Lecture.pdf', 'https://www.kean.edu/~csmart/Observing/05.%20Plate%20tectonics.pdf', 'https://web.gccaz.edu/academicdepartments/physicalscience/engweb/engftp/GLG101/Lecture1_intro_pltec.pdf']
     },
+    {
+        "Topic": "python",
+        "Difficuly": "easy",
+        "URLs": ['http://www.cs.iit.edu/~cs560/fall_2012/week6-10/CS4RK(WeekNine).pdf', 'https://bratliservice.eu/doc/PythonNotesForProfessionals.pdf', 'https://bugs.python.org/file47781/Tutorial_EDIT.pdf', 'https://geosci.uchicago.edu/~rtp1/PythonSupport/PythonNotes.pdf', 'https://mrcet.com/downloads/digital_notes/CSE/III%20Year/PYTHON%20PROGRAMMING%20NOTES.pdf']
+    },
+    {
+        "Topic": "python",
+        "Difficuly": "medium",
+        "URLs": ['https://bratliservice.eu/doc/PythonNotesForProfessionals.pdf', 'https://bugs.python.org/file47781/Tutorial_EDIT.pdf', 'https://geosci.uchicago.edu/~rtp1/PythonSupport/PythonNotes.pdf', 'https://mrcet.com/downloads/digital_notes/CSE/III%20Year/PYTHON%20PROGRAMMING%20NOTES.pdf', 'https://www.ast.cam.ac.uk/~rcooke/python/UCS_python-intro_notes.pdf']
+    },
+    {
+        "Topic": "python",
+        "Difficuly": "hard",
+        "URLs": ['https://www.stat.berkeley.edu/~spector/python.pdf', 'https://www.iare.ac.in/sites/default/files/IARE_OOPS_Lecture%20Notes.pdf', 'https://www.ast.cam.ac.uk/~rcooke/python/UCS_python-intro_notes.pdf', 'https://mrcet.com/downloads/digital_notes/CSE/III%20Year/PYTHON%20PROGRAMMING%20NOTES.pdf', 'https://geosci.uchicago.edu/~rtp1/PythonSupport/PythonNotes.pdf']
+    },
 ];
