@@ -55,7 +55,6 @@ class GET_DIFFICULTY(GET_URLS):
                         else:
                             break
                     self.evaluate_difficulty(url)
-                
             
         return self.return_results()
                 
@@ -65,6 +64,7 @@ class GET_DIFFICULTY(GET_URLS):
             To get a measure of difficulty for the documents.
         """
         self.avg_diff[url] = textstat.smog_index(self.text)
+        
 
     def return_results(self):
         """
@@ -76,16 +76,11 @@ class GET_DIFFICULTY(GET_URLS):
         res_medium = []
         res_hard = []
         
-        seen = set()
-        sorted_results = []
-        sorted_diff = sorted(self.avg_diff)
-        for item in sorted_diff:
-            if item not in seen:
-                seen.add(item)
-                sorted_results.append(item)
+        sorted_results = sorted(self.avg_diff, key=self.avg_diff.get)
+            
         size = len(sorted_results) - 1
         
-        print("The number of URLs fetched after filtering are:",size + 1)
+        print("The number of URLs fetched after filtering are:",size)
                 
         flag = self.difficulty.lower()
 
