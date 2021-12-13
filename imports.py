@@ -10,4 +10,4 @@ from textstat.textstat import textstatistics,legacy_round
 from nltk.corpus import stopwords
 import textstat
 from PyPDF2 import PdfFileReader
-import pandas
+import cgi, cgitb
