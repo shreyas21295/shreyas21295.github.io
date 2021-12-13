@@ -30,7 +30,7 @@ class GET_URLS:
     def save_output(self, rel):
 
         """
-            This method saves the results of get_relevant_urls() in a file named as the query input by the user,
+            This method saves the results of fetch_urls() in a file named as the query input by the user,
             this is done to avoid limiting the calls to Google Api, this will be called only for the first time for a new query.
         """
         
