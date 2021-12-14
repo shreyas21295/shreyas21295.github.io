@@ -3,11 +3,11 @@ A recommender system for students to get lectures notes and scribes personalized
 
 There are three important files, get_urls.py, recommender.py and imports.py. Need to have all of these files in the same folder for it to work. The recommender.py contains the core of the project.
 
-An easy way to run the code would be run the [EduRecoSys.ipynb][https://github.com/shreyas21295/shreyas21295.github.io/blob/main/EduRecoSys.ipynb] Jupyter Notebook, preferably in Anaconda.
+An easy way to run the code would be run the [EduRecoSys.ipynb](https://github.com/shreyas21295/shreyas21295.github.io/blob/main/EduRecoSys.ipynb) Jupyter Notebook, preferably in Anaconda.
 
 It could also be either run on command prompt or as a module. On command promt the arguments are optional, make changes in the main file to get results for that query and specify the difficulty level. The script returns top 5 urls as a result.
 
-The results can also be viewed on the [web page][https://shreyas21295.github.io] for the following topics:
+The results can also be viewed on the [web page](https://shreyas21295.github.io) for the following topics:
 GPU sharing, expectation maximization, learning to rank, unsupervised learning.
 
 
