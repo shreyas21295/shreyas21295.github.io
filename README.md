@@ -1,7 +1,7 @@
 # Scribes-recommender-system
 A recommender system for students to get lectures notes and scribes personalized with three options(Easy, medium and Hard)
 
-There are three important files, get_urls.py, recommender.py and imports.py. Need to have all of these files in the same folder for it to work. The recommender.py contains the core of the project.
+There are three important files, [get_urls.py](https://github.com/shreyas21295/shreyas21295.github.io/blob/main/get_urls.py), [recommender.py](https://github.com/shreyas21295/shreyas21295.github.io/blob/main/recommender.py) and [imports.py](https://github.com/shreyas21295/shreyas21295.github.io/blob/main/imports.py). Need to have all of these files in the same folder for it to work. The [recommender.py](https://github.com/shreyas21295/shreyas21295.github.io/blob/main/recommender.py) contains the core of the project.
 
 An easy way to run the code would be run the [EduRecoSys.ipynb](https://github.com/shreyas21295/shreyas21295.github.io/blob/main/EduRecoSys.ipynb) Jupyter Notebook, preferably in Anaconda.
 
