@@ -1,7 +1,6 @@
 // Grab data from the static JSON file
 var resData = data;
 var difficulty1 = "easy"
-// Function to calculate random integer for recipe
 
 //console.log(resData[0]["Topic"])
 
@@ -13,7 +12,7 @@ function fetchResult(query, level) {
     if (level) {
         //console.log("level found")
         resData.forEach(function (entry) {
-            if (entry["Topic"] == query && entry["Difficuly"] == level) {
+            if (entry["Topic"] == query && entry["DifficultyLevel"] == level) {
                 urls1 = entry["URLs"];
                 //console.log("in console topic " +entry["Topic"]);
             }
@@ -22,7 +21,7 @@ function fetchResult(query, level) {
         //console.log("level not found")
         var topic1 = query;
         resData.forEach(function (entry) {
-            if (entry["Topic"] == topic1 && entry["Difficuly"] == difficulty1) {
+            if (entry["Topic"] == topic1 && entry["DifficultyLevel"] == difficulty1) {
                 urls1 = entry["URLs"];
             }
         }); 
@@ -31,7 +30,6 @@ function fetchResult(query, level) {
     return urls1
 }
 
-// Grab Ingredients in HTML
 const results_table = d3.select("#Results");
 
 // Function to build the data using a parameter data
