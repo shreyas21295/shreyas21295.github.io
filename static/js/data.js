@@ -1,7 +1,7 @@
 data = [
     {
         "Topic": "unsupervised learning",
-        "Difficuly": "medium",
+        "Difficulty": "medium",
         "URLs": ['http://www.mit.edu/~9.54/fall14/slides/Class13.pdf','https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf', 'https://mrcet.com/downloads/digital_notes/CSE/IV%20Year/MACHINE%20LEARNING(R17A0534).pdf', 'https://pdfs.semanticscholar.org/1742/1f86f34998d3125972742bae20e863de0812.pdf', 'https://projects.iq.harvard.edu/gov2001/files/discov.pdf']
     },
     {
@@ -118,5 +118,38 @@ data = [
         "Topic": "trigonometry",
         "Difficuly": "hard",
         "URLs": ['https://www.pnw.edu/wp-content/uploads/2020/03/Lecture-Notes-9-1-2.pdf', 'https://www.govst.edu/uploadedFiles/Academics/Colleges_and_Programs/CAS/Trigonometry_Short_Course_Tutorial_Lauren_Johnson.pdf', 'https://users.math.msu.edu/users/systeven/MTH114synotes.pdf', 'https://orion.math.iastate.edu/butler/PDF/trig_notes.pdf', 'https://math.uchicago.edu/~cstaats/Charles_Staats_III/Notes_and_papers_files/Winter2012.pdf']
+    },
+    {
+        "DifficultyLevel": "easy",
+        "URLs": [
+            "https://www.dgp.toronto.edu/~hertzman/418notes.pdf",
+            "http://www.cim.mcgill.ca/~langer/557/lecturenotesCOMP557.pdf",
+            "https://www.cl.cam.ac.uk/teaching/1112/CompGraph/notes.pdf",
+            "https://engineering.nyu.edu/sites/default/files/2020-10/CS-UY%204533%20Interactive%20Computer%20Graphics.pdf",
+            "https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/nvidia-ampere-architecture-whitepaper.pdf"
+        ],
+        "Topic": "GPU sharing"
+    },
+    {
+        "DifficultyLevel": "medium",
+        "URLs": [
+            "https://engineering.nyu.edu/sites/default/files/2020-10/CS-UY%204533%20Interactive%20Computer%20Graphics.pdf",
+            "https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/nvidia-ampere-architecture-whitepaper.pdf",
+            "https://passlab.github.io/CSCE569/notes/lecture_GPUArchCUDA01.pdf",
+            "http://www.cs.cmu.edu/afs/cs/academic/class/15418-f18/www/lectures/gpu-handout.pdf",
+            "https://inst.eecs.berkeley.edu/~cs152/fa16/lectures/L16-GPU.pdf"
+        ],
+        "Topic": "GPU sharing"
+    },
+    {
+        "DifficultyLevel": "hard",
+        "URLs": [
+            "http://personal.ee.surrey.ac.uk/Personal/J.Collomosse/pubs/cm20219.pdf",
+            "http://web.eece.maine.edu/~vweaver/classes/ece571_2018s/ece571_lec24.pdf",
+            "https://www.cs.cornell.edu/courses/cs4787/2019sp/notes/lecture21.pdf",
+            "https://inst.eecs.berkeley.edu/~cs152/fa16/lectures/L16-GPU.pdf",
+            "http://www.cs.cmu.edu/afs/cs/academic/class/15418-f18/www/lectures/gpu-handout.pdf"
+        ],
+        "Topic": "GPU sharing"
     },
     ];
