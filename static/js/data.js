@@ -130,5 +130,38 @@ data = [
             "http://dept.stat.lsa.umich.edu/~tewaria/theses/Sougata_Chaudhuri_Thesis_2016.pdf"
         ],
         "Topic": "learning to rank"
+    },
+        {
+        "DifficultyLevel": "easy",
+        "URLs": [
+            "https://pdfs.semanticscholar.org/1742/1f86f34998d3125972742bae20e863de0812.pdf",
+            "https://mrcet.com/downloads/digital_notes/CSE/IV%20Year/MACHINE%20LEARNING(R17A0534).pdf",
+            "https://www.cs.toronto.edu/~lczhang/321/notes/notes01.pdf",
+            "https://www.robots.ox.ac.uk/~az/lectures/ml/lect1.pdf",
+            "https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf"
+        ],
+        "Topic": "unsupervised learning"
+    },
+    {
+        "DifficultyLevel": "medium",
+        "URLs": [
+            "https://www.robots.ox.ac.uk/~az/lectures/ml/lect1.pdf",
+            "https://cs.nyu.edu/~mohri/mlu/mlu_lecture_1.pdf",
+            "http://users.metu.edu.tr/alatan/Courses/EE583LECTURES/pr05.pdf",
+            "https://projects.iq.harvard.edu/gov2001/files/discov.pdf",
+            "https://people.eecs.berkeley.edu/~jrs/papers/machlearn.pdf"
+        ],
+        "Topic": "unsupervised learning"
+    },
+    {
+        "DifficultyLevel": "hard",
+        "URLs": [
+            "http://research.iac.es/winterschool/2018/media/summaries/iac_winter_syllabus_MHC.pdf",
+            "http://www.mit.edu/~9.54/fall14/slides/Class13.pdf",
+            "https://www.andrew.cmu.edu/user/achoulde/95791/lectures/lecture07/lecture07_95791.pdf",
+            "http://www.cs.umd.edu/class/spring2018/cmsc422-0101/slides0201/lecture_05.pdf",
+            "https://people.eecs.berkeley.edu/~jrs/papers/machlearn.pdf"
+        ],
+        "Topic": "unsupervised learning"
     }
     ];
