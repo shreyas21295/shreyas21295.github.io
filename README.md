@@ -8,7 +8,7 @@ An easy way to run the code would be run the [EduRecoSys.ipynb](https://github.c
 It could also be either run on command prompt or as a module. On command promt the arguments are optional, make changes in the main file to get results for that query and specify the difficulty level. The script returns top 5 urls as a result.
 
 The results can also be viewed on the [web page](https://shreyas21295.github.io) for the following topics:
-GPU sharing, expectation maximization, learning to rank, unsupervised learning.
+GPU sharing, expectation maximization, learning to rank, unsupervised learning. (make sure there aren't any spelling mistakes or white spaces :p)
 
 
 Mechanics:
