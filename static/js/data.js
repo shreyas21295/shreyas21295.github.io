@@ -141,15 +141,4 @@ data = [
         ],
         "Topic": "GPU sharing"
     },
-    {
-        "DifficultyLevel": "hard",
-        "URLs": [
-            "http://personal.ee.surrey.ac.uk/Personal/J.Collomosse/pubs/cm20219.pdf",
-            "http://web.eece.maine.edu/~vweaver/classes/ece571_2018s/ece571_lec24.pdf",
-            "https://www.cs.cornell.edu/courses/cs4787/2019sp/notes/lecture21.pdf",
-            "https://inst.eecs.berkeley.edu/~cs152/fa16/lectures/L16-GPU.pdf",
-            "http://www.cs.cmu.edu/afs/cs/academic/class/15418-f18/www/lectures/gpu-handout.pdf"
-        ],
-        "Topic": "GPU sharing"
-    },
     ];
